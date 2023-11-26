@@ -19,5 +19,5 @@ fn main() {
         .expect("unable to fetch balance");
 
     let balance = balance.value as f64 / 1e9;
-    println!("{}", balance)
+    println!("Balance: {}sol\n", balance)
 }
